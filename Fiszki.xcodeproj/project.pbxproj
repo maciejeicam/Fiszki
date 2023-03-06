@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		E260F12929B4B1B100EEDD8F /* FiszkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F12829B4B1B100EEDD8F /* FiszkiApp.swift */; };
-		E260F12B29B4B1B100EEDD8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F12A29B4B1B100EEDD8F /* ContentView.swift */; };
+		E260F12B29B4B1B100EEDD8F /* FiszkiGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F12A29B4B1B100EEDD8F /* FiszkiGridView.swift */; };
 		E260F12D29B4B1B400EEDD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E260F12C29B4B1B400EEDD8F /* Assets.xcassets */; };
 		E260F13029B4B1B400EEDD8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E260F12F29B4B1B400EEDD8F /* Preview Assets.xcassets */; };
+		E260F13929B4B21500EEDD8F /* Fiszki.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F13829B4B21500EEDD8F /* Fiszki.swift */; };
+		E260F13D29B544C500EEDD8F /* FiszkiGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F13C29B544C500EEDD8F /* FiszkiGridViewModel.swift */; };
+		E260F13F29B554A100EEDD8F /* FiszkiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F13E29B554A100EEDD8F /* FiszkiDetailView.swift */; };
+		E260F14129B5E6AA00EEDD8F /* FiszkiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F14029B5E6AA00EEDD8F /* FiszkiButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E260F12529B4B1B100EEDD8F /* Fiszki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiszki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E260F12829B4B1B100EEDD8F /* FiszkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiApp.swift; sourceTree = "<group>"; };
-		E260F12A29B4B1B100EEDD8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E260F12A29B4B1B100EEDD8F /* FiszkiGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiGridView.swift; sourceTree = "<group>"; };
 		E260F12C29B4B1B400EEDD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E260F12F29B4B1B400EEDD8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E260F13829B4B21500EEDD8F /* Fiszki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fiszki.swift; sourceTree = "<group>"; };
+		E260F13C29B544C500EEDD8F /* FiszkiGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiGridViewModel.swift; sourceTree = "<group>"; };
+		E260F13E29B554A100EEDD8F /* FiszkiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiDetailView.swift; sourceTree = "<group>"; };
+		E260F14029B5E6AA00EEDD8F /* FiszkiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				E260F12829B4B1B100EEDD8F /* FiszkiApp.swift */,
-				E260F12A29B4B1B100EEDD8F /* ContentView.swift */,
+				E260F12A29B4B1B100EEDD8F /* FiszkiGridView.swift */,
+				E260F13C29B544C500EEDD8F /* FiszkiGridViewModel.swift */,
+				E260F13E29B554A100EEDD8F /* FiszkiDetailView.swift */,
+				E260F14029B5E6AA00EEDD8F /* FiszkiButton.swift */,
+				E260F13829B4B21500EEDD8F /* Fiszki.swift */,
 				E260F12C29B4B1B400EEDD8F /* Assets.xcassets */,
 				E260F12E29B4B1B400EEDD8F /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E260F12B29B4B1B100EEDD8F /* ContentView.swift in Sources */,
+				E260F13929B4B21500EEDD8F /* Fiszki.swift in Sources */,
+				E260F12B29B4B1B100EEDD8F /* FiszkiGridView.swift in Sources */,
+				E260F13F29B554A100EEDD8F /* FiszkiDetailView.swift in Sources */,
+				E260F13D29B544C500EEDD8F /* FiszkiGridViewModel.swift in Sources */,
 				E260F12929B4B1B100EEDD8F /* FiszkiApp.swift in Sources */,
+				E260F14129B5E6AA00EEDD8F /* FiszkiButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fiszki/Preview Content\"";
-				DEVELOPMENT_TEAM = 56JFLV94AG;
+				DEVELOPMENT_TEAM = CFV55V79NR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -296,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fiszki/Preview Content\"";
-				DEVELOPMENT_TEAM = 56JFLV94AG;
+				DEVELOPMENT_TEAM = CFV55V79NR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

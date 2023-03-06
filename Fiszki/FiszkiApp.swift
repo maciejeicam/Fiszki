@@ -11,7 +11,7 @@ import SwiftUI
 struct FiszkiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FiszkiGridView()
         }
     }
 }
