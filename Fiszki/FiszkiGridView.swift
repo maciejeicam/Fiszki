@@ -38,7 +38,7 @@ struct FiszkiGridView: View {
 struct FiszkiGridView_Previews: PreviewProvider {
     static var previews: some View {
         FiszkiGridView()
-            .preferredColorScheme(.none)
+            .preferredColorScheme(.dark)
     }
 }
 
