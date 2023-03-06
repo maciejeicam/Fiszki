@@ -14,6 +14,7 @@ struct FiszkiGridView: View {
                             
     
     var body: some View {
+        
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: columns) {
@@ -22,9 +23,9 @@ struct FiszkiGridView: View {
                             .onTapGesture {
                                 viewModel.selectedFiszka = framework
                             }
-                    }
+                    }.padding(2)
                     
-                }
+                }.padding(2)
             }
             .navigationTitle("Fiszki")
             .sheet(isPresented: $viewModel.isShowingDetailView) {
@@ -50,12 +51,14 @@ struct FiszkiTitleView: View {
         VStack {
                 
             Text(mockDataFiszki.name)
+                .frame(width: .infinity, height: .infinity, alignment: .leading)
                 .font(.title)
-                .fontWeight(.semibold)
+                .fontWeight(.bold)
                 .frame(alignment: .leading)
                 .minimumScaleFactor(20)
         }
-        .padding(12)
+        .padding()
+        .multilineTextAlignment(.leading)
         
     }
 }

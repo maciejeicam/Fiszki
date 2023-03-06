@@ -35,16 +35,11 @@ struct FiszkiDetailView: View {
                 
                 Text(fiszki.description)
                     .font(.body)
-                    .padding()
+                    .padding(2)
                     .frame(alignment: .leading)
                 
                 Spacer()
                 
-                Button {
-                    
-                }label: {
-                    FiszkiButton(title: "Learn more")
-                }
             }
         }
     }

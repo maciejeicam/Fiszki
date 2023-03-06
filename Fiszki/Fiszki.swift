@@ -20,7 +20,7 @@ struct MockData {
     
     static let frameworks = [
         Fiszki(name: "PYTANIA OGÓLNE",
-                  description: "PYTANIA OGÓLNE"),
+                  description: "ZAGADNIENIA OGÓLNE"),
                
         Fiszki(name: "Metody oceniania złożoności obliczeniowej algorytmu",
                   description: "Istnieje wiele metod oceniania złożoności algorytmu, które można wykorzystać do określenia, ile czasu i zasobów (takich jak pamięć lub procesor) będzie potrzebne do wykonania danego algorytmu. Oto kilka przykładów takich metod:\n Ocena złożoności w czasie: Ta metoda mierzy, ile operacji musi wykonać algorytm, aby wykonać swoje zadanie. Złożoność w czasie jest często określana w notacji O(n), gdzie n to rozmiar danych wejściowych. Na przykład jeśli algorytm ma złożoność O(n), oznacza to, że ilość operacji wzrasta proporcjonalnie do rozmiaru danych wejściowych.\n Ocena złożoności pamięci: Ta metoda mierzy, ile pamięci jest potrzebne do przechowywania danych i struktur danych potrzebnych do wykonania algorytmu. Złożoność w pamięci jest często określana w notacji O()."),
@@ -114,7 +114,7 @@ struct MockData {
         Fiszki(name: "Cechy charakterystyczne współczesnych kryzysów finansowych i ekonomicznych",
                   description: "Współczesne kryzysy finansowe i ekonomiczne charakteryzują się kilkoma cechami, które odróżniają je od kryzysów sprzed lat. Oto niektóre z nich:\nSzybkość rozprzestrzeniania się - kryzysy finansowe są coraz bardziej globalne i szybko rozprzestrzeniają się na inne rynki i sektory gospodarki.\nZłożoność - współczesne kryzysy finansowe są zazwyczaj bardzo złożone i mogą mieć różne przyczyny, takie jak np. brak regulacji rynkowych, nadmierne zadłużenie, brak transparentności czy brak odpowiedzialności instytucji finansowych.\nGlobalne skutki - kryzysy finansowe i ekonomiczne mogą mieć bardzo szerokie skutki, dotykając nie tylko sektora finansowego, ale także innych sektorów gospodarki, takich jak np. przemysł czy usługi.\nTrudności w rozwiązaniu - kryzysy finansowe są trudne do rozwiązania, ponieważ wymagają skoordynowanej reakcji różnych podmiotów (rządów, instytucji finansowych, firm itp.) i często wymagają podjęcia trudnych decyzji.\nCzęstotliwość występowania - kryzysy finansowe i ekonomiczne występują coraz częściej, co wynika m.in. z globalizacji rynków i coraz większej złożoności mechanizmów rynkowych."),
         
-        Fiszki(name: "ZAGADNIENIA SPECJALISTYCZNE", description: "to tylko do testu"),
+        Fiszki(name: "ZAGADNIENIA SPECJALISTYCZNE", description: "część zagadnień specjalistycznych"),
         
         Fiszki(name: "Proszę omówić pojęcie gry i zabawy w naukach społecznych",
                   description: "W naukach społecznych pojęcie gry i zabawy odnosi się do różnych form interakcji między ludźmi, które mają charakter celowy, ale nie są związane z codziennymi obowiązkami i obciążeniami. Gry i zabawy mogą mieć różne formy i mogą być realizowane w różnych miejscach, takich jak np. szkoła, praca, dom czy park.\nGry i zabawy pełnią ważną rolę w życiu społecznym i kulturze. Służą m.in. do nawiązywania relacji między ludźmi, do rozwijania umiejętności społecznych i komunikacyjnych, a także do zapewnienia rozrywki i odpoczynku.\nW naukach społecznych pojęcie gry i zabawy jest również często używane jako metafora do opisywania różnych form interakcji i działań społecznych, takich jak np. polityka czy biznes. W ten sposób gry i zabawy stają się narzędziem do analizy i zrozumienia różnych mechanizmów i procesów społecznych."),
