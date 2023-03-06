@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FiszkiButton: View {
+    
     var title: String
     
     var body: some View {
@@ -18,7 +19,7 @@ struct FiszkiButton: View {
             .background(Color.red)
             .foregroundColor(.white)
             .cornerRadius(10)
-
+        
     }
 }
 struct FiszkiButton_Previews: PreviewProvider {

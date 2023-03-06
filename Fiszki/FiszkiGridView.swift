@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct FiszkiGridView: View {
+    
     @StateObject var viewModel = FiszkiGridViewModel()
     
     let columns: [GridItem] = [GridItem(.flexible())]
-                            
     
     var body: some View {
         
@@ -49,7 +49,7 @@ struct FiszkiTitleView: View {
     var body: some View {
         
         VStack {
-                
+            
             Text(mockDataFiszki.name)
                 .frame(width: .infinity, height: .infinity, alignment: .leading)
                 .font(.title)
@@ -59,7 +59,6 @@ struct FiszkiTitleView: View {
         }
         .padding()
         .multilineTextAlignment(.leading)
-        
     }
 }
 
