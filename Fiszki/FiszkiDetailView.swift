@@ -38,6 +38,7 @@ struct FiszkiDetailView: View {
                     .font(.body)
                     .padding(2)
                     .frame(alignment: .leading)
+                    .padding()
                 
                 Spacer()
             }

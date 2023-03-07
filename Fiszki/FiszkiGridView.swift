@@ -15,19 +15,22 @@ struct FiszkiGridView: View {
     
     var body: some View {
         
+        
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: columns) {
-                    ForEach(MockData.frameworks) { framework in
+                    ForEach(MockData.frameworksOgolne) { framework in
                         FiszkiTitleView(mockDataFiszki: framework)
                             .onTapGesture {
                                 viewModel.selectedFiszka = framework
                             }
                     }.padding(2)
-                    
-                }.padding(2)
+                        .multilineTextAlignment(.center)
+                        
+                }
+                
             }
-            .navigationTitle("Fiszki")
+            .navigationTitle("Pytania Egzaminacyjne")
             .sheet(isPresented: $viewModel.isShowingDetailView) {
                 FiszkiDetailView(fiszki: viewModel.selectedFiszka ?? MockData.sampleFramework, isShowingDetailView: $viewModel.isShowingDetailView)
             }
@@ -38,7 +41,7 @@ struct FiszkiGridView: View {
 struct FiszkiGridView_Previews: PreviewProvider {
     static var previews: some View {
         FiszkiGridView()
-            .preferredColorScheme(.dark)
+        
     }
 }
 
@@ -49,16 +52,14 @@ struct FiszkiTitleView: View {
     var body: some View {
         
         VStack {
-            
             Text(mockDataFiszki.name)
-                .frame(width: .infinity, height: .infinity, alignment: .leading)
                 .font(.title)
                 .fontWeight(.bold)
                 .frame(alignment: .leading)
                 .minimumScaleFactor(20)
+                .padding()
         }
         .padding()
-        .multilineTextAlignment(.leading)
     }
 }
 
