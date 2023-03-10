@@ -15,4 +15,6 @@ final class FiszkiGridViewModel: ObservableObject {
         }
     }
     @Published var isShowingDetailView = false
+    
+    let columns: [GridItem] = [GridItem(.flexible())]
 }

@@ -15,6 +15,8 @@
 		E260F13D29B544C500EEDD8F /* FiszkiGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F13C29B544C500EEDD8F /* FiszkiGridViewModel.swift */; };
 		E260F13F29B554A100EEDD8F /* FiszkiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F13E29B554A100EEDD8F /* FiszkiDetailView.swift */; };
 		E260F14129B5E6AA00EEDD8F /* FiszkiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F14029B5E6AA00EEDD8F /* FiszkiButton.swift */; };
+		E2D0151D29BB855E00337549 /* FiszkiTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0151C29BB855E00337549 /* FiszkiTitleView.swift */; };
+		E2D0151F29BB888A00337549 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0151E29BB888A00337549 /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		E260F13C29B544C500EEDD8F /* FiszkiGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiGridViewModel.swift; sourceTree = "<group>"; };
 		E260F13E29B554A100EEDD8F /* FiszkiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiDetailView.swift; sourceTree = "<group>"; };
 		E260F14029B5E6AA00EEDD8F /* FiszkiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiButton.swift; sourceTree = "<group>"; };
+		E2D0151C29BB855E00337549 /* FiszkiTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiTitleView.swift; sourceTree = "<group>"; };
+		E2D0151E29BB888A00337549 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,10 @@
 		E260F12729B4B1B100EEDD8F /* Fiszki */ = {
 			isa = PBXGroup;
 			children = (
+				E2D0151629BB847300337549 /* Views */,
+				E2D0151529BB83F500337549 /* Model */,
+				E2D0151729BB848900337549 /* Screens */,
 				E260F12829B4B1B100EEDD8F /* FiszkiApp.swift */,
-				E260F12A29B4B1B100EEDD8F /* FiszkiGridView.swift */,
-				E260F13C29B544C500EEDD8F /* FiszkiGridViewModel.swift */,
-				E260F13E29B554A100EEDD8F /* FiszkiDetailView.swift */,
-				E260F14029B5E6AA00EEDD8F /* FiszkiButton.swift */,
-				E260F13829B4B21500EEDD8F /* Fiszki.swift */,
 				E260F12C29B4B1B400EEDD8F /* Assets.xcassets */,
 				E260F12E29B4B1B400EEDD8F /* Preview Content */,
 			);
@@ -77,6 +79,66 @@
 				E260F12F29B4B1B400EEDD8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2D0151529BB83F500337549 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E260F13829B4B21500EEDD8F /* Fiszki.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2D0151629BB847300337549 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2D0151B29BB854B00337549 /* View */,
+				E2D0151929BB84DB00337549 /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E2D0151729BB848900337549 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E2D0151A29BB850F00337549 /* FiszkiDetailView */,
+				E2D0151829BB84A200337549 /* FiszkiGridView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E2D0151829BB84A200337549 /* FiszkiGridView */ = {
+			isa = PBXGroup;
+			children = (
+				E260F12A29B4B1B100EEDD8F /* FiszkiGridView.swift */,
+				E260F13C29B544C500EEDD8F /* FiszkiGridViewModel.swift */,
+			);
+			path = FiszkiGridView;
+			sourceTree = "<group>";
+		};
+		E2D0151929BB84DB00337549 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E260F14029B5E6AA00EEDD8F /* FiszkiButton.swift */,
+				E2D0151E29BB888A00337549 /* XDismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		E2D0151A29BB850F00337549 /* FiszkiDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				E260F13E29B554A100EEDD8F /* FiszkiDetailView.swift */,
+			);
+			path = FiszkiDetailView;
+			sourceTree = "<group>";
+		};
+		E2D0151B29BB854B00337549 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2D0151C29BB855E00337549 /* FiszkiTitleView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,12 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D0151D29BB855E00337549 /* FiszkiTitleView.swift in Sources */,
 				E260F13929B4B21500EEDD8F /* Fiszki.swift in Sources */,
 				E260F12B29B4B1B100EEDD8F /* FiszkiGridView.swift in Sources */,
 				E260F13F29B554A100EEDD8F /* FiszkiDetailView.swift in Sources */,
 				E260F13D29B544C500EEDD8F /* FiszkiGridViewModel.swift in Sources */,
 				E260F12929B4B1B100EEDD8F /* FiszkiApp.swift in Sources */,
 				E260F14129B5E6AA00EEDD8F /* FiszkiButton.swift in Sources */,
+				E2D0151F29BB888A00337549 /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
