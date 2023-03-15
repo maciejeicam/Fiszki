@@ -12,7 +12,6 @@ struct FiszkiTitleView: View {
     let mockDataFiszki: Fiszki
     
     var body: some View {
-        
         VStack {
             Text(mockDataFiszki.name)
                 .font(.title)

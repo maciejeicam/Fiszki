@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct XDismissButton: View {
+    
     @Binding var isShowingDetailView: Bool
+    
     var body: some View {
         HStack{
             Spacer()

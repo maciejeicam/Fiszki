@@ -10,11 +10,9 @@ import SwiftUI
 final class FiszkiGridViewModel: ObservableObject {
     
     var selectedFiszka: Fiszki? {
-        didSet {
-            isShowingDetailView = true
-        }
+        didSet { isShowingDetailView = true }
     }
-    @Published var isShowingDetailView = false
     
+    @Published var isShowingDetailView = false
     let columns: [GridItem] = [GridItem(.flexible())]
 }

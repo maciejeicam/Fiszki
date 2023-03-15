@@ -19,19 +19,19 @@ struct FiszkiGridView: View {
                     NavigationLink(destination: FiszkiDetailView(fiszki: framework, isShowingDetailView: $viewModel.isShowingDetailView)) {
                         FiszkiTitleView(mockDataFiszki: framework)
                     }
+                    .preferredColorScheme(.dark)
                 }
             }
             .navigationTitle("Pytania Egzaminacyjne")
         }
-        
     }
 }
-    
-    struct FiszkiGridView_Previews: PreviewProvider {
-        static var previews: some View {
-            FiszkiGridView()
-        }
+
+struct FiszkiGridView_Previews: PreviewProvider {
+    static var previews: some View {
+        FiszkiGridView()
     }
-    
-    
-    
+}
+
+
+

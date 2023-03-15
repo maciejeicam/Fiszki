@@ -10,18 +10,14 @@ import UIKit
 
 struct Fiszki: Hashable, Identifiable {
     
-  
     var id = UUID()
     let name: String
     let imageName: String
     let category: String
     let description: String
-    
-    
 }
 
 struct MockData {
-    
     
     static let sampleFramework = Fiszki(name: "ARKit",imageName: "1024",category: "Zagadnienia Specjalistyczne",
                                         description: "ARKit 4 introduces a brand-new Depth API, creating a new way to access the detailed depth information gathered by the LiDAR Scanner on iPhone 12 Pro, iPhone 12 Pro Max, and iPad Pro.\n\nLocation Anchors leverages the higher-resolution data in Apple Maps to place AR experiences at a specific point in the world in your iPhone and iPad apps. And support for face tracking extends to all devices with the Apple Neural Engine and a front-facing camera, so even more users can experience the joy of AR in photos and videos.")
@@ -183,7 +179,6 @@ struct MockData {
                description: "W popularnych programach do tworzenia grafiki 3D i animacji wykorzystywane są następujące modele barw:\nRGB (Red, Green, Blue) - model barw oparty na trzech podstawowych barwach: czerwonym, zielonym i niebieskim. Każda z tych barw jest reprezentowana przez osobny kanał składowy (R, G, B), a ich mieszanie pozwala uzyskać dowolny kolor.\nCMYK (Cyan, Magenta, Yellow, Key) - model barw oparty na czterech podstawowych barwach: cyan (błękitny), magenta (pomarańczowy), żółty i key (czarny). Ten model jest szczególnie popularny w drukarce, ponieważ pozwala uzyskać bardzo dobrą jakość druku.\nHSL (Hue, Saturation, Lightness) - model barw oparty na trzech parametrach: odcieniu (hue), nasyceniu (saturation) i jasności (lightness). Ten model umożliwia łatwe zmiany odcienia, nasycenia i jasności koloru bez zmiany jego charakteru.\nLAB (Lightness, a, b) - model barw oparty na trzech parametrach: jasności (lightness), barwie a (odcieniu) i barwie b (nasyceniu). Ten model jest szczególnie przydatny do dokładnego reprezentowania kolorów widzialnego spektrum, ponieważ uwzględnia percepcję ludzkiego oka.\nXYZ (X, Y, Z) - model barw oparty na trzech parametrach: X, Y i Z. Ten model jest oparty na modelu RGB, ale uwzględnia również jasność i nasycenie kolorów. Jest często używany w systemach oświetleniowych i drukarskich."),
         
         Fiszki(name: "Na czym polega animacja poklatkowa, klatki kluczowe.",imageName: "1024",category: "Zagadnienia Specjalistyczne",
-               description: "Animacja poklatkowa to technika tworzenia ruchomych obrazów, w której poszczególne klatki są tworzone ręcznie, jedna po drugiej. W procesie animacji poklatkowej twórca rysuje lub tworzy model 3D poszczególnych klatek animacji, a następnie 'łączy' je ze sobą, tworząc iluzję ruchu.\nKlatki kluczowe to poszczególne klatki animacji, które zawierają najważniejsze zmiany lub przejścia w animacji. Klatki kluczowe są używane w celu określenia pozycji, rotacji i skali obiektów w danej chwili czasu. Programy do tworzenia animacji pozwalają na tworzenie kluczowych klatek i automatyczne interpolowanie pozostałych klatek między nimi, co pozwala na łatwiejsze i szybsze tworzenie animacji."),
-        
+               description: "Animacja poklatkowa to technika tworzenia ruchomych obrazów, w której poszczególne klatki są tworzone ręcznie, jedna po drugiej. W procesie animacji poklatkowej twórca rysuje lub tworzy model 3D poszczególnych klatek animacji, a następnie 'łączy' je ze sobą, tworząc iluzję ruchu.\nKlatki kluczowe to poszczególne klatki animacji, które zawierają najważniejsze zmiany lub przejścia w animacji. Klatki kluczowe są używane w celu określenia pozycji, rotacji i skali obiektów w danej chwili czasu. Programy do tworzenia animacji pozwalają na tworzenie kluczowych klatek i automatyczne interpolowanie pozostałych klatek między nimi, co pozwala na łatwiejsze i szybsze tworzenie animacji.")
     ]}
 

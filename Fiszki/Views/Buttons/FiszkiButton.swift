@@ -19,9 +19,9 @@ struct FiszkiButton: View {
             .background(Color.red)
             .foregroundColor(.white)
             .cornerRadius(10)
-        
     }
 }
+
 struct FiszkiButton_Previews: PreviewProvider {
     static var previews: some View {
         FiszkiButton(title: "Test Title")
