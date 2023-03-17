@@ -10,7 +10,7 @@ import SwiftUI
 struct FiszkiSpecjalizacjaView: View {
     
     let backgroundGradient = LinearGradient(
-        colors: [Color.white, Color.blue],
+        colors: [Color.blue, Color.white],
         startPoint: .top, endPoint: .bottom)
     
     @StateObject var viewModel = FiszkiListViewModel()

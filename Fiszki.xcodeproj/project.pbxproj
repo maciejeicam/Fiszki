@@ -73,8 +73,6 @@
 				E260F12829B4B1B100EEDD8F /* FiszkiApp.swift */,
 				E260F12C29B4B1B400EEDD8F /* Assets.xcassets */,
 				E260F12E29B4B1B400EEDD8F /* Preview Content */,
-				E295EE3729C43B9C003128DA /* FiszkiSpecjalizacjaView.swift */,
-				E295EE3929C43BCE003128DA /* FiszkiOgolneView.swift */,
 			);
 			path = Fiszki;
 			sourceTree = "<group>";
@@ -116,6 +114,9 @@
 		E2D0151829BB84A200337549 /* FiszkiGridView */ = {
 			isa = PBXGroup;
 			children = (
+				E295EE3529C43B3A003128DA /* FiszkiTabView.swift */,
+				E295EE3929C43BCE003128DA /* FiszkiOgolneView.swift */,
+				E295EE3729C43B9C003128DA /* FiszkiSpecjalizacjaView.swift */,
 				E260F13C29B544C500EEDD8F /* FiszkiListViewModel.swift */,
 			);
 			path = FiszkiGridView;
@@ -142,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				E2D0151C29BB855E00337549 /* FiszkiTitleView.swift */,
-				E295EE3529C43B3A003128DA /* FiszkiTabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

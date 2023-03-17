@@ -25,7 +25,7 @@ struct FiszkiTabView: View {
                     Image(systemName: "gamecontroller")
                 }
         }
-        .preferredColorScheme(.light)
+        .accentColor(Color("barItemColor"))
     }
 }
 

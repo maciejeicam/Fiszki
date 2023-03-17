@@ -10,7 +10,7 @@ import SwiftUI
 struct FiszkiDetailView: View {
     
     let backgroundGradient = LinearGradient(
-        colors: [Color.white, Color.blue],
+        colors: [Color.green, Color.white, Color.blue],
         startPoint: .top, endPoint: .bottom)
     
     var fiszki: Fiszki
