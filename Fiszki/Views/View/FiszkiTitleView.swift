@@ -14,17 +14,20 @@ struct FiszkiTitleView: View {
     var body: some View {
         VStack {
             Text(mockDataFiszki.name)
-                .font(.title)
+                .font(.title3)
                 .fontWeight(.bold)
+                .foregroundColor(.black)
                 .frame(alignment: .leading)
                 .minimumScaleFactor(0.5)
                 .padding()
+                
         }
+        .preferredColorScheme(.light)
     }
 }
 
 struct FiszkiTitleView_Preview: PreviewProvider {
     static var previews: some View {
-        FiszkiTitleView(mockDataFiszki: MockData.sampleFramework)
+        FiszkiTitleView(mockDataFiszki: MockData.sampleFiszki)
     }
 }

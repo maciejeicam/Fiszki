@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-final class FiszkiGridViewModel: ObservableObject {
+final class FiszkiListViewModel: ObservableObject {
     
     var selectedFiszka: Fiszki? {
         didSet { isShowingDetailView = true }

@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		E260F12929B4B1B100EEDD8F /* FiszkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F12829B4B1B100EEDD8F /* FiszkiApp.swift */; };
-		E260F12B29B4B1B100EEDD8F /* FiszkiGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F12A29B4B1B100EEDD8F /* FiszkiGridView.swift */; };
 		E260F12D29B4B1B400EEDD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E260F12C29B4B1B400EEDD8F /* Assets.xcassets */; };
 		E260F13029B4B1B400EEDD8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E260F12F29B4B1B400EEDD8F /* Preview Assets.xcassets */; };
 		E260F13929B4B21500EEDD8F /* Fiszki.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F13829B4B21500EEDD8F /* Fiszki.swift */; };
-		E260F13D29B544C500EEDD8F /* FiszkiGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F13C29B544C500EEDD8F /* FiszkiGridViewModel.swift */; };
+		E260F13D29B544C500EEDD8F /* FiszkiListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F13C29B544C500EEDD8F /* FiszkiListViewModel.swift */; };
 		E260F13F29B554A100EEDD8F /* FiszkiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F13E29B554A100EEDD8F /* FiszkiDetailView.swift */; };
 		E260F14129B5E6AA00EEDD8F /* FiszkiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260F14029B5E6AA00EEDD8F /* FiszkiButton.swift */; };
+		E295EE3629C43B3A003128DA /* FiszkiTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E295EE3529C43B3A003128DA /* FiszkiTabView.swift */; };
+		E295EE3829C43B9C003128DA /* FiszkiSpecjalizacjaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E295EE3729C43B9C003128DA /* FiszkiSpecjalizacjaView.swift */; };
+		E295EE3A29C43BCE003128DA /* FiszkiOgolneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E295EE3929C43BCE003128DA /* FiszkiOgolneView.swift */; };
 		E2D0151D29BB855E00337549 /* FiszkiTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0151C29BB855E00337549 /* FiszkiTitleView.swift */; };
 		E2D0151F29BB888A00337549 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0151E29BB888A00337549 /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
@@ -22,13 +24,15 @@
 /* Begin PBXFileReference section */
 		E260F12529B4B1B100EEDD8F /* Fiszki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiszki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E260F12829B4B1B100EEDD8F /* FiszkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiApp.swift; sourceTree = "<group>"; };
-		E260F12A29B4B1B100EEDD8F /* FiszkiGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiGridView.swift; sourceTree = "<group>"; };
 		E260F12C29B4B1B400EEDD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E260F12F29B4B1B400EEDD8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E260F13829B4B21500EEDD8F /* Fiszki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fiszki.swift; sourceTree = "<group>"; };
-		E260F13C29B544C500EEDD8F /* FiszkiGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiGridViewModel.swift; sourceTree = "<group>"; };
+		E260F13C29B544C500EEDD8F /* FiszkiListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiListViewModel.swift; sourceTree = "<group>"; };
 		E260F13E29B554A100EEDD8F /* FiszkiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiDetailView.swift; sourceTree = "<group>"; };
 		E260F14029B5E6AA00EEDD8F /* FiszkiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiButton.swift; sourceTree = "<group>"; };
+		E295EE3529C43B3A003128DA /* FiszkiTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiTabView.swift; sourceTree = "<group>"; };
+		E295EE3729C43B9C003128DA /* FiszkiSpecjalizacjaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiSpecjalizacjaView.swift; sourceTree = "<group>"; };
+		E295EE3929C43BCE003128DA /* FiszkiOgolneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiOgolneView.swift; sourceTree = "<group>"; };
 		E2D0151C29BB855E00337549 /* FiszkiTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiszkiTitleView.swift; sourceTree = "<group>"; };
 		E2D0151E29BB888A00337549 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +73,8 @@
 				E260F12829B4B1B100EEDD8F /* FiszkiApp.swift */,
 				E260F12C29B4B1B400EEDD8F /* Assets.xcassets */,
 				E260F12E29B4B1B400EEDD8F /* Preview Content */,
+				E295EE3729C43B9C003128DA /* FiszkiSpecjalizacjaView.swift */,
+				E295EE3929C43BCE003128DA /* FiszkiOgolneView.swift */,
 			);
 			path = Fiszki;
 			sourceTree = "<group>";
@@ -110,8 +116,7 @@
 		E2D0151829BB84A200337549 /* FiszkiGridView */ = {
 			isa = PBXGroup;
 			children = (
-				E260F12A29B4B1B100EEDD8F /* FiszkiGridView.swift */,
-				E260F13C29B544C500EEDD8F /* FiszkiGridViewModel.swift */,
+				E260F13C29B544C500EEDD8F /* FiszkiListViewModel.swift */,
 			);
 			path = FiszkiGridView;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				E2D0151C29BB855E00337549 /* FiszkiTitleView.swift */,
+				E295EE3529C43B3A003128DA /* FiszkiTabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,13 +217,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E295EE3629C43B3A003128DA /* FiszkiTabView.swift in Sources */,
 				E2D0151D29BB855E00337549 /* FiszkiTitleView.swift in Sources */,
 				E260F13929B4B21500EEDD8F /* Fiszki.swift in Sources */,
-				E260F12B29B4B1B100EEDD8F /* FiszkiGridView.swift in Sources */,
+				E295EE3829C43B9C003128DA /* FiszkiSpecjalizacjaView.swift in Sources */,
 				E260F13F29B554A100EEDD8F /* FiszkiDetailView.swift in Sources */,
-				E260F13D29B544C500EEDD8F /* FiszkiGridViewModel.swift in Sources */,
+				E260F13D29B544C500EEDD8F /* FiszkiListViewModel.swift in Sources */,
 				E260F12929B4B1B100EEDD8F /* FiszkiApp.swift in Sources */,
 				E260F14129B5E6AA00EEDD8F /* FiszkiButton.swift in Sources */,
+				E295EE3A29C43BCE003128DA /* FiszkiOgolneView.swift in Sources */,
 				E2D0151F29BB888A00337549 /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +361,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -382,6 +391,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
